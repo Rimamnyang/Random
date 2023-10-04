@@ -1,0 +1,28 @@
+.table{
+  margin-bottom: 40px;
+}
+
+.action{
+  display: grid;
+  grid-template-columns: 100px 150px 150px 1fr 1fr 150px 150px;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.action div {
+  font-weight: bold;
+padding: 15px 5px ;
+border: 1px;
+border-style: solid;
+}
+
+section{
+  display: flex;
+  align-items: center;
+}
+.pay{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: start;
+}

@@ -1,0 +1,33 @@
+.table{
+display: flex;
+text-align: center;
+align-items: center;  
+padding: 0;
+}
+
+hr{
+  background-color: rgba(252, 248, 227, 0.3);
+  color: rgba(252, 248, 227, 0.3);
+  border-color:rgba(252, 248, 227, 0.3) ;
+}
+.table p{
+  flex: 1;
+  background-color:rgb(252, 248, 227);
+  padding: 5px;
+  color: #8a6d3b;
+  margin-left:20px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.info{
+  font-weight: bold;
+}
+
+.pay{
+  margin-top: -45px;
+}
+
+.navigation{
+  padding-top: 95px;
+}

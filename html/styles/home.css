@@ -1,0 +1,186 @@
+body{
+  margin: 0;
+  padding: 78px 0 0 0 ;
+  position: relative;
+}
+header{
+  background-color: #5bc0de;
+  height: 78px;
+  color: rgba(231, 76, 60, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+  position: fixed;
+  left: 0;
+  right:0;
+  top: 0;
+  z-index: 200;
+}
+
+main{
+  margin: 0;
+  position: relative;
+  padding-bottom: 10px;
+}
+#logout{
+  margin: 0;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.head{
+  display:flex;
+}
+
+header img{
+  height: 47px;
+  width:47px;
+  object-fit: contain;
+  margin-left: 30px;
+}
+ 
+section{
+  padding-top: 5px;
+  padding-left: 30px;
+  color: black;
+  font-family: arial;
+  height: 100px;
+  font-size: 16px;
+}
+
+section p{
+  color: red;
+  margin-top: 40px;
+}
+
+.hostel-links nav{
+  display: flex;
+  column-gap: 20px;
+  margin: 0 15px;
+}
+
+.hostel{
+  border-radius: 3px;
+  flex: 1;
+  background-color: rgba(0, 0, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+  height: 70px;
+}
+
+.accomodation{
+  flex: 1;
+  background-color: rgba(255, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+  border-radius: 3px;
+  height: 70px;
+}
+
+.hostel-links{
+  padding-top: 20px;
+  padding-bottom: 0PX;
+  background-color:  #f2f2f2;
+  height: 700PX;
+  margin-bottom: -10PX;
+}
+
+
+nav a{
+  text-decoration: none;
+}
+
+button{
+  color: white;
+  border: none;
+  font-size: 20px;
+  width: 500px;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: black ;
+}
+
+#ham{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#ham:hover .navigation{
+  display: flex;
+}
+
+
+.name{
+  color: red;
+  font-size: 20px
+}
+
+.navigation{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(39, 174, 96) ;
+  color: white;
+  width: 270px;
+  justify-content: center;
+  z-index: 100;
+
+}
+
+.navigation a{
+  flex: 1;
+  color: white;
+}
+
+.navigation div{
+  padding:15px
+}
+
+.navigation div:hover{
+  transition: 0.15s;
+  cursor: pointer;
+  background-color: rgb(41, 146, 85);
+}
+.navigation h4{
+  margin: 0;
+  font-size: 11px;
+  font-weight: 500;
+  color: lightgray;
+}
+
+.navigation img{
+  height: 100px;
+  width: 100px;
+  padding: 10 0 0 0;
+  object-fit: contain;
+  border-radius: 50px;
+}
+
+.navigation #header{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+}
+
+.navigation #text, #image{
+  padding: 5px;
+}
+
+footer{
+  padding-left: 270px;
+}

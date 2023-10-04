@@ -1,0 +1,137 @@
+body{
+  margin: 0;
+}
+
+header{
+  background-color:rgb(39, 174, 96) ;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 100px;
+}
+/**/
+header img {
+  width: 200px;
+  height: 120px;
+  object-fit: contain;
+  margin: 15px 0;
+}
+
+header h3{
+  color: white;
+  margin: 0;
+  font-size: 23px;
+  font-family: sans-serif;
+  padding: 4px;
+  font-weight: 500;
+}
+
+.logins{
+  margin-right: 5px;
+  padding-bottom: 120px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.signin{
+  text-decoration: none;
+  position: absolute;
+  right: 15px;
+  bottom: 30px;
+}
+.signin{
+  border: none;
+  text-decoration: none;
+  background-color: rgb(24, 156, 83) ;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+
+#signin{
+  padding: 2px 2px;
+}
+
+#check{
+background-color:rgb(4, 95, 45) ;
+margin-left: 0px;
+border-bottom-right-radius: 2px;
+border-top-right-radius: 4px;
+padding: 5px 5px;
+font-weight: bold;
+}
+
+.student-login{
+  display: flex;
+  background-color: rgb(49, 49, 230) ;
+  color: white;
+  justify-content: center;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.user-inputs input{
+  width:80%;
+  margin: 10px 10px;
+  padding: 5px;
+}
+
+.user-inputs label{
+  margin-left: 10%;
+}
+
+.general-details{
+  margin-right: 5px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px; 
+  margin-bottom: 10px;
+}
+
+.info{
+ display: flex;
+ background-color: rgb(24, 185, 185);
+ color: white;
+ justify-content: center;
+ padding: 5px;
+ margin-bottom: 20px;
+}
+
+.uam-website{
+  display: grid;
+  grid-template-columns: 370px;
+  margin-left: 20px;
+}
+
+.uam{
+  margin-left: 15px;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.uam img{
+  width: 100px;
+  height: 100px;
+}
+
+.uam h2{
+  padding-left: 4px;
+  flex: 1;
+  height:100px ;
+  margin: 0;
+}
+
+.Federal{
+  font-size: 30px;
+  font-weight: bold;
+}
+.Innovation{
+  color: red;
+}
+
+.uam-website a{
+  text-decoration: none;
+  color: black;
+}
