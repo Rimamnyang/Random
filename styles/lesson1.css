@@ -1,0 +1,174 @@
+body{
+  background-color: aqua;
+}
+.text4 {
+  font-style: ariel;
+  width:350px;
+  height: 110px;
+  padding: 2px;
+ margin: 0px;
+}
+
+.button-1 {
+  background-color: yellow;
+  border-color: rgb(10, 207, 10);
+  height: 36px;
+  width: 80px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-left: 13px;
+  border-style: solid;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button-1:hover {
+  background-color: black;
+  color: yellow;
+  border-color: red;
+}
+
+.button-1:active {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.button-2 {
+  background-color: rgb(10, 102, 197);
+  border: none;
+  height: 36px;
+  width: 115px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 18px;
+  margin-left: 13px;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.button-2:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.button-2:active {
+  opacity: 0.7;
+}
+
+.button-3 {
+  background-color: white;
+  border-color: black;
+  height: 36px;
+  width: 100px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-left: 13px;
+  border-style: solid;
+  cursor: pointer;
+  transition: background-color,
+    color 0.15s;
+}
+
+.button-3:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.button-3:active {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.nike {
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  margin: 0px;
+}
+
+.in-stock {
+  font-size: 20px;
+  color: rgb(0, 150, 0);
+  font-style: bold;
+  margin: 0;
+}
+
+.delivery {
+  font-size: 20px;
+  font-style: bold;
+  color: rgb(12, 192, 215);
+}
+
+.cart {
+  border: none;
+  background-color: rgb(255, 216, 20);
+  color: black;
+  height: 30px;
+  width: 100px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.cart:hover {
+  opacity: 0.7;
+}
+
+.cart:active {
+  opacity: 0.5;
+}
+
+.buy-now {
+  border: none;
+  background-color: yellow;
+  height: 30px;
+  width: 100px;
+  border-radius: 15px;
+  font-size: 15;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buy-now:hover {
+  opacity: 0.7;
+}
+
+.buy-now:active {
+  opacity: 0.5;
+}
+
+.shoes {
+  font-family: arial;
+}
+
+.shoes:hover {
+  text-decoration: underline;
+  color: rgb(85, 26, 139);
+  cursor: pointer;
+}
+.hello{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.a1 {
+  font-size: large;
+  font-style: italic;
+  margin: 0;
+}
+
+.a2 {
+  font-size: large;
+  font-style: italic;
+  margin: 0;
+}
+.hbut{
+  text-decoration: none;
+}

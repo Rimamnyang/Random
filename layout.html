@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>layout</title>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="g1">1</div>
+      <div class="g2">2</div>
+      <div class="g3">3</div>
+    </div>
+      <div class="grid">
+  <div class="g2">2</div>
+  <div class="g3">3</div>
+  <div class="g1">1</div>
+      </div>
+      <div class="flex">
+        <div class="jer">jerry</div>
+        <div class="emm">emmy</div>
+        
+      </div>
+  </body>
+  <style>
+    .flex{
+      display: flex;
+      flex-direction: row;
+      border-color: black;
+      border-style: solid;
+      border-width: 2px;
+      height: 200px;
+      margin-top: 10px;
+      margin-bottom: 1000px;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .jer{
+      width: 200px;
+      height: 100px;
+      background-color: aqua;
+    }
+    .emm{
+      width: 200px;
+      height: 100px;
+      background-color: bisque;
+    }
+    .ata{
+     width: 200px;
+     height: 100px;
+      background-color: chartreuse;
+    }
+  </style>
+  <style>
+    .grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      height: 200px;
+      column-gap: 10px;
+      margin-top: 20px;
+    }
+    .g1{
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    }
+    .g2{
+      background-color: brown;
+      color: black;
+      border-radius: 10px;
+    }
+    .g3{
+      background-color: blueviolet;
+      color: black;
+      border-radius: 10px;
+    }
+  </style>
+</html>

@@ -1,0 +1,111 @@
+.contain{
+  border: 2px;
+  border-color: red;
+  border-style: solid;
+  border-radius: 5px;
+  background-color:rgb(199, 199, 199);
+  width: 250px;
+  ;
+}
+.Login{
+  margin: 5px;
+  font-family: arial;
+  font-weight: 700;
+  font-size: 18px;
+}
+.Username{
+  margin-bottom: 15px;
+  width: 200px;
+  padding: 5px;
+  color: blue;
+  font-family: Arial;
+  font-weight: bold;
+}
+.Password{
+    margin-bottom: 15px;
+      width: 200px;
+      padding: 5px;
+      color: blue;
+      font-family: Arial;
+      font-weight: bold;
+}
+button{
+padding: 5px;
+background-color: blue;
+color: white;
+border-radius: 4px;
+border-style: solid;
+font-weight: bold;
+cursor: pointer;
+margin-left: 5px;
+}
+button:hover{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+button:active{
+  opacity: 0.7;
+}
+
+.author{
+  width: 50px;
+  height: 50px;
+ border-radius: 25px;
+ object-fit: fill;
+ object-position: top;
+}
+.ceo{
+margin-top: 0;
+margin-bottom: 0;
+}
+.brand{
+  background-color: red;
+  padding: 5px;
+  width: fit-content;
+  font-weight: bold;
+  font-family: ariel;
+  font-size: 17px;
+}
+.web{
+  padding: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  margin-left: 70px;
+  background-color: blue;
+  width: fit-content;
+  color: white;
+  font-weight: ariel;
+}
+.welcome {
+  padding: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.text {
+  padding: 2px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: grey;
+  width: 320px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.google{
+  width: 250px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.search{
+  width: 250px;
+  height: 25px;
+   margin-bottom: 8px;
+   border-radius: 13px;
+   border-style: solid;
+   padding-left: 10PX;
+   
+}
+.search:active, .search:hover{
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}

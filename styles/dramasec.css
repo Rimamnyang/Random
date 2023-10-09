@@ -1,0 +1,87 @@
+.videoC{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin: 5px 5px;
+  padding: 5px;
+  background-color:  lightgrey;
+}
+@media(max-width:700px) {
+ .videoC {
+  grid-template-columns: 1fr 1fr 1fr;
+ } 
+}
+.video {
+  margin-bottom: 3px;
+  position:relative;
+  width: 300px;
+}
+
+.video #video{
+  width: 300px;
+}
+.imgd2{
+  position: relative;
+  width: 300px;
+  height: 170px;
+  object-fit: fill;
+}
+.time {
+  padding: 2px;
+  margin: 0px 2px;
+  position: absolute;
+  z-index: 19;
+  right: 0;
+  bottom: 7px;
+  background-color: black;
+  color: whitesmoke;
+}
+.video-subtitle{
+  display: flex;
+  align-items: center;
+}
+.video-subtitle img {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover top;
+  margin-right: 2px;
+}
+.video-title{
+  flex: 1;
+  color: black;
+  font-family: arial;
+  font-size: 15px;
+}
+
+.sidebar{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 20%;
+  bottom: 20%;
+  margin: 0;
+ justify-content: space-between;
+ padding: 2px;
+}
+
+.sidebar button{
+flex: 1;
+margin: 1px 0px;
+padding: 2px;
+cursor: pointer;
+background-color: grey;
+border: none;
+}
+
+.sidebar img{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: contain;
+}
+
+.sidebar button:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+}

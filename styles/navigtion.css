@@ -1,0 +1,28 @@
+td{
+  vertical-align: top;
+  color:black;
+}
+body{
+  color: black; 
+}
+.heading{
+  background-color: blue;
+  color: white;
+}
+table{
+  border-color: black;
+}
+.heading{
+  display: flex;
+  flex-direction: row;
+}
+.heading{
+  flex: 1fr;
+}
+
+.author{
+  flex:1fr;
+}
+.contact{
+  flex: 1fr;
+}
